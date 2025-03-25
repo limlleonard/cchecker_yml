@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ../cchecker_backend
+    ports:
+      - 8000:8000
+  frontend:
+    build: ../cchecker_frontend
+    ports:
+      - 
+
+  db:
